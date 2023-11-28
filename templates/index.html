@@ -1,0 +1,29 @@
+
+
+{% extends "modelo.html" %}
+{% block conteudo %}
+
+      <h5><br><br><br>Desejo que você
+          Não tenha medo da vida, tenha medo de não vivê-la.<br>
+          Não há céu sem tempestades, nem caminhos sem acidentes.<br>
+          Só é digno do pódio quem usa as derrotas para alcançá-lo.<br>
+          Só é digno da sabedoria quem usa as lágrimas para irrigá-la.<br>
+          Os frágeis usam a força; os fortes, a inteligência. <br>
+          Seja um sonhador, mas una seus sonhos com disciplina,<br>
+          Pois sonhos sem disciplina produzem pessoas frustradas.<br>
+          Seja um debatedor de ideias. Lute pelo que você ama.</h5>
+<br><br><br>
+      <p><a href="/sobre">Próxima Página</a></p>
+
+
+
+
+
+
+    {% for termo in glossario %}
+        <h3>{{ termo[0] }}</h3>
+        <p>Mussum Ipsum, cacilds vidis litro abertis.  Manduma pindureta quium dia nois paga. Si num tem leite então bota uma pinga aí cumpadi! Paisis, filhis, espiritis santis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
+
+            Atirei o pau no gatis, per gatis num morreus. Pra lá, depois divoltis porris, paradis. A ordem dos tratores não altera o pão duris. Si num tem leite então bota uma pinga aí cumpadi!</p>
+    {% endfor %}
+{% endblock %}
